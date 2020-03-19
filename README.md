@@ -1,7 +1,7 @@
 ## recommendation_system
 
 ## dataset to be used :https://www.kaggle.com/retailrocket/ecommerce-dataset 
-
+### [you need not dowmload dataset to run :) ]
 instructions to run the project<br>
 setting up environment <br>
 ### 1.Install the virtualenv package<br>
