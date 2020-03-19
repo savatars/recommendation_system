@@ -16,5 +16,5 @@ for windows <br>
 ### 4.Installing  dependencies<br>
 ```  >> pip install -r requirements.txt``` <br>
 ### 5.running server<br>
- ```   >> python manage.py runserver<br>``` 
+ ```   >> python manage.py runserver``` <br>
       
