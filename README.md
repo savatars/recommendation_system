@@ -7,7 +7,7 @@ setting up environment <br>
 ### 1.Install the virtualenv package<br>
  ```>> pip install virtualenv``` <br>
 ### 2.Create the virtual environment<br>
- ``` >> virtualenv mypython<br>``` 
+ ``` >> virtualenv mypython```<br> 
 ### 3.Activate the virtual environment <br>
 ###### for linux 
 >> ```  >> source mypython/bin/activate``` <br>
