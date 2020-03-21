@@ -18,3 +18,5 @@ setting up environment <br>
 ### 5.running server<br>
  ```   >> python manage.py runserver``` <br>
       
+	 ###happy coding 
+	  
