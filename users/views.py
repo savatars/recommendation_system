@@ -18,4 +18,5 @@ def register(request):
   
 @login_required		
 def profile(request):
-	return render(request,'users/profile.html')
+	products=[420,88,776,1123,4,987,55,4523,9987,69]
+	return render(request,'users/main.html',{'products':products})
