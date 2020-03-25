@@ -25,7 +25,7 @@ def profile(request):
 
 		prod_input=request.POST.get('data')
 		print(prod_input)
-	return render(request,'users/main.html',{'products':products})
+	return render(request,'users/main.html',{'products':prod_input})
 
 @csrf_exempt
 def final(request):
@@ -33,4 +33,4 @@ def final(request):
 	prod_input=request.POST.get('product_list')
 	print('allah')
 	print(prod_input)
-	return render(request,'users/main.html',{'products':products})
+	return render(request,'users/main.html',{'products':prod_input})
