@@ -3,6 +3,12 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib import messages
 from .forms import UserRegisterForm,UserUpdateForm,ProfileUpdateForm
 from django.contrib.auth.decorators import login_required
+from mysite.models import features
+feature_set=[]
+for i in (features.objects.all()):
+	feature_set.append([i.recommendedProducts])
+print(feature_set)
+
 # Create your views here.
 def register(request):
 		if request.method=="POST":
