@@ -4,6 +4,7 @@ from django.contrib import messages
 from .forms import UserRegisterForm,UserUpdateForm,ProfileUpdateForm
 from django.contrib.auth.decorators import login_required
 from mysite.models import features
+<<<<<<< HEAD
 from django.views.decorators.csrf import csrf_exempt
 import math
 import json
@@ -12,6 +13,12 @@ feature_set=[]
 for i in (features.objects.all()):
 	feature_set.append(list(map(int,i.recommendedProducts.split(","))))
 
+=======
+feature_set=[]
+for i in (features.objects.all()):
+	feature_set.append([i.recommendedProducts])
+print(feature_set)
+>>>>>>> a5dbe1483eab3a10b5525ea7f4b6305ce1137bfc
 
 # Create your views here.
 def register(request):
